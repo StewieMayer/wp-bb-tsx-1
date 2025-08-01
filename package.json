@@ -19,7 +19,8 @@
     "url": "https://github.com/StewieMayer/wp-bb-tsx-1/issues"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js"
   },
   "dependencies": {
     "react": "^19.1.1",
