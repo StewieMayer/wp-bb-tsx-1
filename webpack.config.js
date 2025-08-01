@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path'); // Import the path module to handle file paths
 
 module.exports = {
@@ -21,5 +22,16 @@ module.exports = {
         ], // Array to hold module rules, a rule is an object with properties for test, use, and exclude a module
     },
     devtool: 'source-map', // Generate source maps for easier debugging ts and tsx files on navigator
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './public/index.html', // Template HTML file to use
+        })
+    ],
+    devServer: {
+        static: './dist', // Serve static files from the dist directory
+        port: 3000, // Set the port for the development server
+        open: true, // Automatically open the browser when the server starts
+        hot: true, // Enable Hot Module Replacement for live updates
+    }
 }
 
