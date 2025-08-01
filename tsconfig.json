@@ -37,7 +37,7 @@
       This is often used in projects where Babel handles the final output, allowing TypeScript to focus on type checking.
       If you want TypeScript to emit JavaScript files, set this to false.
      */
-    "noEmit": true,
+    "noEmit": false,
     /*
       JSX code generation mode, "react-jsx" is for React 17+ with the new JSX transform.
       It means that you don't need to import React in every file that uses JSX.
