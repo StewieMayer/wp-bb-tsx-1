@@ -1,5 +1,5 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
+  // This is a basic TypeScript configuration file for a project using Webpack, Babel, and React.
   "compilerOptions": {
     // Version of JavaScript to compile to ES&nbsp;6 is a good choice for modern browsers
     "target": "es6",
