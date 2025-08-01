@@ -7,10 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/StewieMayer/wp-bb-tsx-1.git"
   },
-  "keywords": ["webpack", "typescript", "react", "babel"],
+  "keywords": [
+    "webpack",
+    "typescript",
+    "react",
+    "babel"
+  ],
   "author": "Stewie Mayer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StewieMayer/wp-bb-tsx-1/issues"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
