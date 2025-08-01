@@ -1,0 +1,16 @@
+{
+  "name": "wp-bb-tsx-1",
+  "version": "0.0.0",
+  "description": "Basic Webpack, Babel, TypeScript, and React setup",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StewieMayer/wp-bb-tsx-1.git"
+  },
+  "keywords": ["webpack", "typescript", "react", "babel"],
+  "author": "Stewie Mayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StewieMayer/wp-bb-tsx-1/issues"
+  }
+}
