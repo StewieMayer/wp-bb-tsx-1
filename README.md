@@ -51,9 +51,11 @@ module.exports = {
 
 ### 🧬 Update package.json scripts
 ```json
-"scripts": {
+{
+  "scripts": {
   "build": "webpack --config webpack.config.js",
   "start": "webpack serve --config webpack.config.js"
+}
 }
 ```
 
