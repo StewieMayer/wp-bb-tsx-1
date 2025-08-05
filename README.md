@@ -32,7 +32,7 @@ Create babel.config.json
 
 Update webpack.config.js
 
-```json
+```js
 module.exports = {
   // ...
   module: {
